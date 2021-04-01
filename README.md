@@ -3,5 +3,6 @@ This project contains the configuration file for setting up your php mail server
 # Requirement
 •	XAMPP 
 •	G-mail enabled with “Less Secured Apps”.
-#File changes
+
+# File changes
 ## php.ini
