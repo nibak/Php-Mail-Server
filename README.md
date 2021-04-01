@@ -18,7 +18,7 @@ Changes:
 ![image](https://user-images.githubusercontent.com/70001044/113351103-7d320000-938e-11eb-8627-2e58da86c4bf.png)
 
 
-# sendmail.ini
+## sendmail.ini
 File Location : C:\xampp\sendmail
 Changes:
 
