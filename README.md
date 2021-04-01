@@ -5,21 +5,25 @@ This project contains the configuration file for setting up your php mail server
 •	G-mail enabled with “Less Secured Apps”.
 
 # File changes
-There are certain commands that needs to be updated in few files. Or you can download the files I have uploaded and apply the main changes
+There are certain commands that needs to be updated in few files. Or you can download the files I have highlighted the main changes below.
 ## php.ini
 File Location= C:\xampp\php
 Changes:
 [mail function]
-; For Win32 only.
-; http://php.net/smtp
-SMTP=smtp.gmail.com
-; http://php.net/smtp-port
-smtp_port=587
+
+![image](https://user-images.githubusercontent.com/70001044/113351049-69869980-938e-11eb-8a2b-10e8678666d0.png)
 
 [OpenSSL]
-ini_set("SMTP","ssl://smtp.gmail.com");
-ini_set("smtp_port","587");
-openssl.cafile="C:\xampp\apache\bin\curl-ca-bundle.crt"
+
+![image](https://user-images.githubusercontent.com/70001044/113351103-7d320000-938e-11eb-8627-2e58da86c4bf.png)
 
 
-## sendmail
+# sendmail.ini
+File Location : C:\xampp\sendmail
+Changes:
+
+![image](https://user-images.githubusercontent.com/70001044/113351260-b9656080-938e-11eb-8c88-d7f5e39490d3.png)
+
+# Php command to test
+
+![image](https://user-images.githubusercontent.com/70001044/113351479-0b0deb00-938f-11eb-8307-f4044af50299.png)
